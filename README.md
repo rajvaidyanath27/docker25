@@ -7,5 +7,9 @@
 3. Lists all Docker images stored locally on your machine.
 
         docker images
+4. Connect to an existing conatiner
+
+        docker exec -it <container_name_or_id> bash
+
 
  
