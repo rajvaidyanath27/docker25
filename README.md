@@ -15,7 +15,13 @@
         docker --version
 6. Remove an image
 
-       docker rmi <image_id> 
+       docker rmi <image_id>
+7. Stop a running container
+
+        docker stop <container_id>
+9. Start a stopped container
+
+        docker start <container_id>   
 
 
  
